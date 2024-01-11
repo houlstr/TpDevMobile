@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy"
+      content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div id="contactList" data-role="page">
+      <div data-role="header">
+        <h1>Contact am</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <a href="" data-role="button" data-icon="plus" data-iconpos="right">Ajouter</a>
+        <ul id="contactList" data-role="listview" data-inset="true" data-filter="true"
+          data-filter-placeholder="Rechercher un contact" >
+        <li><a href="">Ndale FEDIOR</a></li>
+        <li><a href="">Hawa FEDIOR</a></li>
+
+        </ul>
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <h1>Contact am &copy; 2023</h1>
+      </div>
+    </div>
+
+    <div id="contactShow" data-role="page">
+      <div data-role="header">
+        <h1>Contact am</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <a href="" data-role="button" data-icon="done" data-iconpos="edit">Modifier</a>
+        <form action="">
+            <label for="">Modifier</label>
+        </form>
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <h1>Contact ma &copy; 2023</h1>
+      </div>
+    </div>
+  </body>
+</html>
